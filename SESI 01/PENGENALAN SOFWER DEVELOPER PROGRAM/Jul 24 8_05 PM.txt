@@ -1,0 +1,56 @@
+
+https://codeshare.io/webb10sesi01
+
+H8 - WEB BATCH 10 (BUAT FOLDER)
+-----
+Sesi-01
+----- belajar_website (buat folder)
+----------- index.html (file -> di jalankan di browser)
+----- summary.txt (file -> penjelasan pembahasan sesi 01)
+Sesi-02
+Sesi-03
+Sesi-04
+Sesi-05
+Sesi-06
+Sesi-07
+Sesi-08
+
+install vscode :
+vscode (visual studio code) : https://code.visualstudio.com/
+
+extension vscode :
+auto close tag
+auto rename tag
+live server (rekomendasi)
+atau php server :
+	local server  / xampp / laragon
+prettier - code formatter
+
+--------- tugas ---------
+screenshot hasil instalasi vscode dan extension
+lampirkan koding (*.html)
+
+
+--------- summary --------
+1. instalasi vscode/extension
+2. create struktur folder
+3. create file index.html 
+	- struktur html
+
+-------- github --------
+buat github :
+email student (email dari kampus) > rekomendasi
+- link ke email biasa
+benefit :
+- copilot
+- 1password
+- domain *.me
+- dll
+
+------ batas pengumpulan tugas ---------
+sebelum sesi selanjutnya di mulai (18:59)
+
+format pengiriman (compress zip - kodepeserta-nama-sesi) : 
+001-Arif-Sesi01.zip
+
+
