@@ -61,7 +61,7 @@ form input[type="submit"] {
   float: left;
 }
 
-.profile photo img{
+.profile-photo img  {
   display: inline;
   align-items: center;
   border: 3px solid;
@@ -72,9 +72,12 @@ form input[type="submit"] {
 
 .profile-text{
   float: left;
-  margin-right: 50px;
+  margin-right: 20px;
 }
 
+#detail {
+  display: inline;
+}
 
 .button1{
     color: white;
@@ -90,6 +93,7 @@ form input[type="submit"] {
     border-radius: 10px;
     padding: 10px;
   }
+
 .bold1 {
   font-weight: bold;
 }
