@@ -4,7 +4,7 @@ bodY
     color: white;
 }
 
-.tulisan_satu
+.Tulisan_satu
 {
     color:rgb(89, 226, 43);
     font-family: arial,helvetica, sans-serif;
@@ -12,7 +12,7 @@ bodY
     text-decoration: underline;
 }
 
-.tulisan_dua 
+.Tulisan_dua 
 {
     color: orangered;
     font-style: 24px;
@@ -20,10 +20,12 @@ bodY
     text-transform: capitalize;
     text-decoration: overline;
 }
-.tulisan_tiga {
+.Tulisan_tiga {
 color:aqua
 font-weight: bold;
 font-style: oblique;
 text-align: center;
-text
+text-transform: lowercase;
+text-decoration: line-through;
+word-spacing: 10px;
 }

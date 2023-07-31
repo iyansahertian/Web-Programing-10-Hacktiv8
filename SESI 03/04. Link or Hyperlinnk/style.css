@@ -1,0 +1,25 @@
+bodY
+{
+    background-color: black;
+    color: white;
+}
+
+.Link
+{
+    font-style: 20pt;   
+}
+
+.Link:hover 
+{
+color:red;
+}
+
+.Link:active
+ {
+color:green;
+}
+
+.Link:visited
+ {
+color:yellow;
+}
