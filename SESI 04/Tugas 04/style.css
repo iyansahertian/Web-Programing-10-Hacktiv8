@@ -1,0 +1,26 @@
+body{
+	background-color: black;
+	color: white;
+}
+#hasilkeliling, #hasilluas{
+	background-color: #FFF;
+	border: 2px solid #0C00FF;
+}
+.photo img
+{
+	display: inline;
+	align-items: center;
+	border: 3px solid;
+	border-radius: 100%;
+	border-color: orange;
+	margin-right: 20px;
+}
+.gambar img
+{
+	display: inline;
+	align-items: center;
+	border: 3px solid;
+	border-radius: 100%;
+	border-color: orange;
+	margin-right: 20px;
+}

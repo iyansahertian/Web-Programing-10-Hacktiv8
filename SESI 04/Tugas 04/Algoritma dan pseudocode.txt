@@ -1,0 +1,84 @@
+Alhgoritma & Peus
+
+Untuk menghitung luas & keliling lingkaran rumusnya adalah :
+
+1. Rumus untuk Menghitung Keliling
+
+Keterangan :
+Π (Phi) = 3,14 atau 22/7
+r (Jari-jari) = 1/2 x d
+d (diameter) = 2 x r
+
+-------> K = 2 Π r <---------
+            atau
+-------> K = 2 Π d <---------
+
+Contoh Soal :
+    1.1. Diketahui lingkaran dengan jari-jari 20 cm, Keliling tersebut adalah...?
+
+        r = 20 cm
+    jawaban :
+        Keliling lingkaran  = 2 x Π x r
+                            = 2 x 3.14 x 20
+                            = 125.6 cm
+
+    1.2. Diketahui sebuah lingkaran memiliki sebesar 66 cm.
+            hitunglah berapa diameter lingkaran tersebut.
+
+                Keliling lingkaran  = 2 x Π x r
+                                r   = Keliling Lingkaran / 2 x Π 
+                                    Atau 
+            Keliling lingkaran      =  Π x d
+                                d   = Keliling lingkaran / Π
+Jawaban :
+    Keliling lingkaran  =  Π x d
+                    d   = Keliling lingkaran / Π
+                    d   = 66 / 3,14
+                    d   = 21 cm 
+
+2. Untuk rumus Menghitung Luas Lingkaran
+    Keterangan :
+        Π (Phi) = 3,14 atau 22/7
+        r (Jari-jari) = 1/2 x d
+        d (diameter) = 2 x r
+
+    Rumus Luas Lingkaran
+        L   =   Π r r (r2)
+        L   =   1/4 Π d d
+    
+    Contoh soal :   
+        2.1. Jika diketahui sebuag lingkaran mempunyai diameter 14 cm.
+             berapakah luas lingkaran tersebut ?
+
+             d = 14 cm
+             Luas lingkaran = 1/4 x Π x d x d
+                        L   = 1/4 X 22/7 X X 14 X 14
+                        L   = 154 cm
+
+Contoh Pseudocode
+Algoritma Luas_lingkaran
+{menghitung luas lingkaran}
+
+Deklarasi :
+    Const PI    = 3.14
+    Jari-jari   = Real
+
+Deskripsi :
+read (jari_jari)
+luas <- PI * Jari-jari * jari-jari
+
+flowchart :
+        1. input    : mulai
+        2. Declare  :Deklarasi :
+                            Const PI    = 3.14
+                            Jari-jari   = Real
+        3.Membaca jari_jari
+        4.luas <- PI * Jari-jari * jari-jari
+        5. Mencetak Luas
+        6. Selesai
+
+Terimakasih 
+
+Kode Peserta    : INPG-PKJ-10-009
+Nama Lengkap    : Stanley Riyanto Sahertian
+Tugas Sesi 04   : Algoritma dan Pseudocode
