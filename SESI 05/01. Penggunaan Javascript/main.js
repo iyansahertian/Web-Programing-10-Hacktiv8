@@ -1,0 +1,1 @@
+alert ('saya memanggil java script melalui alert,js')

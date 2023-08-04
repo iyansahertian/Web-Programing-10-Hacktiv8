@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Membuat Conditional Javascript</title>
+</head>
+<body>
+    <input type="number" id="nilaiInputan" />
+    <button onclick="hitunggrade()">Grade</button>
+    <br />
+    <table>
+      <tr>
+        <td><h4>Grade Anda :</h4></td>
+        <td><h2 id="hasil"></h2></td>
+      </tr>
+    </table>
+
+    <script>
+      function hitunggrade() {
+        //buat variabel nilai dengan let lalu ambil value dari inputan menggunakan id
+        let nilai = document.getElementById("nilaiInputan").value;
+        //tentukan grade bahwa sebelumnya variabel kosong
+        let grade = "";
+        //dalam logika ini sebelumnya grade kosong namun ketika input type diberikan nilai maka akan menyesuaikan
+        if (nilai >= 90) {
+          grade = "A";
+        } else if (nilai >= 80) {
+          grade = "B";
+        } else if (nilai >= 70) {
+          grade = "C";
+        } else if (nilai >= 60) {
+          grade = "D";
+        } else if (nilai <= 60) {
+          grade = "E";
+        }
+
+        document.getElementById("hasil").innerHTML = grade;
+      }
+    </script>
+</body>
+</html>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belajar Conditional</title>
+</head>
+<body>
+    <label>Kondisi</label><br>
+    <input type="text" id="cekKondisi"><br><br>
+    <button onclick="ceklapar()">Cek Lapar</button>
+    <p id="hasil"></p>
+
+    <script>
+        function ceklapar(){
+            let kondisi = document.getElementById("cekKondisi").value;
+            let hasil ="";
+
+            if (kondisi === "lapar"){
+               hasil = "waktu makan" 
+            }
+            //waktu makan
+            else{
+                hasil = "bukan waktunya makan"
+            }
+           document.getElementById("hasil").innerHTML = hasil;
+        }
+    </script>
+    
+</body>
+</html>

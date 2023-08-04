@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menghitung MAJU dan Mundur Javascript</title>
+</head>
+<body>
+    <h1>Hitung Maju Mundur</h1>
+
+    <div>
+        <button onclick="Maju ()">Maju</button>
+        <button onclick="Mundur()">Mundur</button>
+    </div>
+    <div><h3 id="hasil"></h3></div>
+
+    <script>
+        // membuat variabel baru
+        var angka = 0;
+        
+        // variabel hasil mengambil dari id hasil default yaitu 10
+        var hasil =document.getElementById("hasil");
+
+        // buat fungsi untuk menghitung mundur yang dimana hasil default 10 dalam html sama dengan angka yang di kurangi satu
+         //menggunakan --
+         function   Mundur (){
+         hasil.innerHTML = angka;
+         angka --;}
+
+        // buat fungsi untuk menghitung Maju yang dimana hasil defaultnya 10 dalam html sama dengan angka yang di tambahkan satu
+            // menggunakan ++
+            function Maju (){
+                hasil.innerHTML= angka ;
+                angka ++;
+            }
+
+    </script>
+</body>
+</html>

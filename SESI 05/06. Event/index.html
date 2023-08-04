@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belajar Event Javascript </title>
+</head>
+<body>
+    <h1>Mengenal Event Pada Javascript</h1>
+    <h2>www.hacktiv8.com</h2>
+
+    <!--memberikan event pada element tombol-->
+    <button onclick="tampilkan_nama()">klik saya</button>
+
+    <!--id hasil-->
+    <div id="hasil">hasil</div>
+
+</body>
+<script>
+    //membuat function tampilkan_nama
+    function tampilkan_nama(){
+        document.getElementById("hasil").innerHTML="<h3>Saya adalah Fox</h3>";
+    }
+</script>
+</html>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latihan</title>
+</head>
+<body>
+    <label for="pesan">Pesan</label>
+    <input type="text" id="pesan" placeholder="Masukan text"/><br>
+    <label for="berapa kali">Berapa Kali</label>
+    <input type="number" id="number" placeholder="masukan angka"/><br>
+    <button onclick="cetak()">Cetak!</button>
+    <p id="hasil"></p> 
+    <script>
+        // const nama_variabel= document.getElementById("nama_variabel")
+        var pesan=document.getElementById("pesan")
+        var number=document.getElementById("number")
+        var hasil=document.getElementById("hasil")
+
+        //function tampilkan pesan
+            function cetak (){
+                //apakah pesan dan berapa kali kosong
+                if (pesan.value=="" || number.value==""){
+                    //jika kosong maka tampilkan pesan
+                    hasil.innerHTML="pesan dan berapa kali harus diisi";
+                } else{
+                    //jika tidak kosong maka tampilkan pesan
+                    cetak2();
+                }
+            }
+            function cetak2() {
+        // deklarasi variabel
+        var pesanValue = pesan.value;
+        var numberValue = number.value;
+        var hasilValue = "";
+        // cetak output ol dan ul
+        hasilValue += `<ol>`;
+        hasilValue += `<li>Isi pesan: ${pesanValue}</li>`;
+        hasilValue += `<li>number: ${numberValue}</li>`;
+
+        hasilValue += `</ol>`;
+
+        hasilValue += `<ol>`;
+        for (let i = 0; i < numberValue; i++) {
+          hasilValue += `<li>${pesanValue}</li>`;
+        }
+        hasilValue += `</ol>`;
+        // tampilkan hasilValue
+        hasil.innerHTML = hasilValue;
+            }
+    </script>
+</body>
+</html>

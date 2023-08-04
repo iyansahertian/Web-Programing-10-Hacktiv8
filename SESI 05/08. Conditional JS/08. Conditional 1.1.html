@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belajar Conditional</title>
+</head>
+<body>
+    <button onclick="ceklapar()">Cek Lapar</button>
+    <p id="hasil"></p>
+    <script>
+function ceklapar(){
+    let kondisi = "lapar"
+    if (kondisi === "lapar"){
+        //waktu makan
+        hasil = "Waktu Makan"
+
+    } else {
+        //bukan waktu makan
+        hasil = "Bukan Waktu Makan"
+    }
+    document.getElementById("hasil").innerHTML = hasil
+}
+    </script>
+</body>
+</html>
