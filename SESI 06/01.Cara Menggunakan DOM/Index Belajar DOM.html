@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=`, initial-scale=1.0">
+    <title>belajar DOM</title>
+</head>
+
+<body>
+    <H2>Belajar DOM</H2>
+    <div id="hasil"></div>
+    
+    <SCRIPT>
+        document.write("hello wolrd");
+        document.write("<h2>hello world</>");
+        // untuk enter line gunakan /n (inspect)
+        // untuk enter yang ada browser / halaman gunakan <br>
+        
+        // create variable
+        var heading= "<h3>Hello heading</h3>";
+        document.getElementById("hasil").innerHTML= heading;
+
+        //let var const
+
+        //penggunaan var
+        //looping
+        for (var i= 0; i < 5; i++){
+        document.write (heading);
+        }
+
+
+        console.log (i);
+
+        //penggunaan let
+
+        let Heading="<h3>Hello heading</h3>";
+
+        for(let j= 0; j<5; j++){
+        document.write(heading);
+        }
+
+        //console.log (j);
+
+        function helloName(params) {
+            return 'hello name $(params) $(heading)';
+        }
+
+        console.log(helloName("stanley"));
+        //dom
+        //akses head
+        var dochead = document.head
+        console.log(dochead);
+
+        //akses body
+        var docbody = document.body
+        console.log(docbody);
+
+        //cek panjang title
+        document.title.length;
+         
+    </SCRIPT>
+</body>
+</html>

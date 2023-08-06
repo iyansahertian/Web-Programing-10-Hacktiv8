@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Aplikasi ganti Warna</h1>
+    <label for="warna_latar">warna latar</label>
+    <input id="warna_latar" type="color" placeholder="input warna">
+    <br>
+    <label for="warna_teks">warna teks</label>
+    <input id="warna_teks" type="color" placeholder="input warna">
+    
+    <script>
+        //deklarasi variable
+        var warna_latar=document.getElementById("warna_latar");
+        var warna_teks=document.getElementById("warna_teks");
+
+        //change event 
+        warna_latar.addEventListener("change", function(){
+            document.body.style.backgroundColor = warna_latar.value;
+        });
+        warna_teks.addEventListener("change", function(){
+            document.body.style.color = warna_teks.value;
+        });
+    </script>
+</body>
+</html>

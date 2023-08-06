@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belajar Regex</title>
+</head>
+<body>
+    <!--sample-->
+    <label for="Nomor_telp">Masukan nomot telp Anda</label>
+    <input type="number" name="" id="" placeholder="Masukan  nomor Telp Anda">
+    <!--onkeyup="this.value:this.value.replace(/[^\d],)">
+    --> 
+    <br>
+
+    <!--terapkan Regex-->
+    <script>
+        //load regex
+        var foo = /ab+c/
+
+        console.log(foo);
+        console.log(typeof foo);
+
+        //load regex 2
+        var bar = new RegExp("ab+c");
+
+        console.log(bar);
+        console.log(typeof bar);
+
+        //regex belajar
+        var foo ="belajar Javascript";
+        var pola = /Javascript/;
+
+        console.log(pola.test(foo));
+        console.log(/Belajar/.test(foo));
+        console.log(/belajar/.test(foo));
+
+        // regex angka
+
+        var foo=" 1 jam sama dengan 60 menit, juga sama dengan 3600 detik";
+        var pola=/\d+/g;
+
+        //console pola
+        //console.log(pola.test(foo));
+        console.log(pola.exec(foo));
+        console.log(pola.exec(foo));
+        console.log(pola.exec(foo));
+        console.log(pola.exec(foo));
+
+        // regex belajar 2
+        var foo="belajar Javascript";
+        console.log(/Javascript/.test(foo));
+        console.log(/javascript/.test(foo));
+        console.log(/belajar/.test(foo));
+        console.log(/Belajar/.test(foo));
+        console.log(/Java/.test(foo));
+        console.log(/ajar/.test(foo));
+
+        console.log("--------------------------------");
+
+        //regex pola
+        var pola= /[a-e , 0-9,]/;
+        console.log(pola.test("abaa"));
+        console.log(pola.test("fba"));
+        console.log(pola.test("1dd"));
+        console.log(pola.test("add"));
+        console.log(pola.test(" dd"));
+        console.log(pola.test("belajar"));
+        console.log("-----------------------------------------");
+
+       
+
+        setInterval(() => {
+            setTimeout(() => {
+            
+        }, 3000);
+    }, 1000);
+
+    </script>
+
+
+</body>
+</html>

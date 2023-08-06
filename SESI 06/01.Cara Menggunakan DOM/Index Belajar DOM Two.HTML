@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belajar DOM Two</title>
+</head>
+<body>
+    <div id="hello"></div>
+    <!--<h1 id="hello" class="hello">hello</h1>--->
+    <script>
+        // create element
+        document.write("Belajar DOM<br>")
+        // call hello
+        var hello = document.getElementById("hello").innerHTML="hello world";
+        console.log(hello);
+        //langsung buat
+        //var h1 = document.createElement("h1").textcontent ="Hello World menggunakan Heading 1"
+        //call hello with append
+        document.body.append(hello);
+        console.log(h1);
+
+        var cekHeading = document.getElementsByTagName("h1")(0);
+        console.log("heading 1 : " + cekHeading.innerhtml);
+
+        //hapus element
+        h1.remove();
+       //cek lagi
+        // console.log("Heading 1 : " + cekHeading.value );
+    </script>
+</body>
+</html>
+
+
+
+
